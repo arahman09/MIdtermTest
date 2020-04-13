@@ -1,0 +1,92 @@
+This file contains SQL questions.
+Please read the questions and answer.
+
+What is Database?
+Ans: A database is an organized collection of structured information, or data,
+    typically stored electronically in a computer system
+
+What is DBMS?
+Ans: Database Management System.
+
+What is the difference between SQL and MySQL?
+Ans: SQL: SQL is a Structured Query Language. It is useful to manage relational databases.
+     MySQL: MySQL is an RDBMS tostore, retrieve, modify and administrate a database usingSQL.
+
+What is RDBMS? How is it different from DBMS?
+Ans: RDBMS: Relational Database Management System. DBMS stores data as a file.
+       and RDBMS stored data in the form of tables.
+
+What are Tables and Fields?
+Ans: A table is collection of related data, it is consists of row, columns and cells,
+Fields appear as columns in a database table.
+
+What is SQL?
+Ans: SQL: Structured Query Language. It is used for sorting, manipulating and retrieving data from database.
+
+What are Constraints in SQL?
+Ans: Constraints are the rules enforced on the data columns of a table.
+    These are used to limit the type of data that can go into a table.
+    This ensures the accuracy and reliability of the data in the database.
+
+What is a Primary Key?
+Ans: The Primary Key constraint uniquely identifies each record in a table. Primary Key must contain unique values,
+     and cannot contain NULL values.
+
+What is a Foreign Key?
+Ans: A Foreign Key is a key used to link two tables together.
+
+What is Normalization?
+Ans: Normalization in DBMS is used to minimize the redundancy from a relation or set of relations.
+
+What is Denormalization?
+Ans: Denormalization in database is an optimization technique in which we add redundant data to one or more tables
+
+You have 2 tables given below.
+
+Order Table:
+
+OrderID	 CustomerID	  OrderDate
+20508	    1	      2014-09-10
+30407	    2	      2016-09-19
+40250	    10	      2020-03-20
+
+Customer Table:
+
+CustomerID	   CustomerName	    CustomerPhone	     Country
+1              John Dave	    1-718-203-9087	     Australia
+2	           Brian Gary	    1-646-789-3489	     USA
+3	           Chris Brown	    1-212-342-7843       Canada
+
+Please do the following on above Order table and Customer table:
+
+Inner Join:
+
+SELECT Order.OrderID, Customer.CustomerName FROM order
+INNER JOIN Customer ON Orders.CustomerID = Customer.CustomerID;
+
+Left Join:
+
+SELECT Order.OrderID, Customer.CustomerName FROM order
+LEFT JOIN Customer ON Orders.CustomerID = Customer.CustomerID;
+
+Right Join:
+
+SELECT Order.OrderID, Customer.CustomerName FROM order
+RIGHT JOIN Customer ON Orders.CustomerID = Customer.CustomerID;
+
+Full Join:
+
+SELECT Order.OrderID, Customer.CustomerName FROM order
+FULL JOIN Customer ON Orders.CustomerID = Customer.CustomerID;
+
+On Customer Table, please Insert one row.
+
+INSERT INTO Customer(CustomerID, CustomerName, CustomerPhone, Country)
+VALUES ('4', 'Bon Jovi', '1-347-987-6578', 'India');
+
+On Order Table, please Update one row.
+
+UPDATE Order SET OrderID 40259 WHERE CustomerID = 10;
+
+
+

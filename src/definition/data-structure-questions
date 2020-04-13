@@ -1,0 +1,138 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+Ans: By using data structure we can arrange, manipulate, store and retrieve data
+     from computer memory or from any disk.
+
+What are the various operations that can be performed on different Data Structures?
+Ans: General operations performed on a data structure are -
+
+    -- Insertion, to add items to it
+    -- Deletion, to remove items from it
+    -- Modification, to modify items
+    -- Searching, to search for a particular item
+    -- Sorting, to sort the items in a required order.
+
+List out the areas in which data structures are applied extensively?
+Ans: Some areas are :   Compiler Design,Operating System,
+                        Database Management System,
+                        Statistical analysis,
+                        Numerical Analysis,
+                        Graphics,
+                        Artificial Intelligence,
+                        Simulation.
+
+what is an Array?
+Ans: An Array can hold multiple values of same data type simultaneously.
+
+what is the difference between the Array and ArrayList?
+Ans: Arrays are fixed length data structures. You can’t change their size once they are created.
+     ArrayList is dynamic in nature. Its size is automatically increased if you add elements beyond its capacity.
+
+what is LinkedList?
+Ans: A linked list is a linear data structure where each element is a separate object.
+    Each element is called node of a list is comprising of two items, the data and a reference to the next node.
+
+How is an Array different from Linked List?
+Ans: An array is the data structure that contains a collection of similar type data elements,
+     whereas the Linked list is considered as non-primitive data structure contains a collection of unordered linked elements known as nodes.
+
+what is queue?
+Ans: A Queue is a linear structure it follows the order of First in First out data structure.
+
+what is stack?
+Ans: Stack is a linear data structure which follows a particular order Last In First Out.
+
+what is FIFO and LIFO?
+Ans: FIFO: First in First out
+     LIFO: Last in First out
+
+what is the order of complexity?
+Ans: Order of complexity is a rough approximation of the number of steps necessary to execute an algorithm.
+
+what is the best case to search an element from an array?
+Ans: Linear Search with complexity O(n)
+     Binary Search with complexity O(log n)
+     Search using HASH value with complexity O(1)
+
+what is the worst case to search an element from an array?
+Ans: Worst case arise when the element is at last position or not in the array.
+
+what is tree in data structure?
+ANs: A Tree is a nonlinear Data structure. A tree can be empty with no nodes.
+
+what is graph in data structure?
+Ans: A Graph is a nonlinear Data structure consists of nodes and edges.
+
+what is the difference between the HashTable and HashMap?
+Ans: HashMap is non synchronized. It is not thread safe and can't be shared between many threads without proper synchronization code.
+     Hashtable is synchronized. It is thread safe and can be shared with many threads.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans: RDBMS: Array
+     Network data and Model: Graph
+     Hierarchical data model: Trees
+
+How HashMap works in java?
+Ans: HashMap works On principle of Hashing, Hashing in its simplest form, is a way to assigning a unique code for any
+variable/object after applying any formula/algorithm on its properties.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Ans: ArrayIndexOutOfBoundsException is a runtime exception, It only occur at runtime.
+
+What are the different ways of copying an array into another array?
+Ans: There are mainly four different ways to copy
+     1. Manually
+     2. Arrays.copyOf()
+     3. System.arraycopy()
+     4. Object.clone()
+
+What is difference between an array and a linked list?
+Ans:  An array is the data structure that contains a collection of similar type data elements whereas the Linked list is
+considered as non-primitive data structure contains a collection of unordered linked elements known as nodes.
+
+What is DFS and BFS?
+ANs: BFS stands for Breadth First Search. DFS stands for Depth First Search.
+
+What is Recursion?
+Ans: The process in which a function calls itself directly or indirectly is called recursion.
+
+What are linear and non linear data Structures?
+Ans: A Linear data structure have data elements arranged in sequential manner and each member element is connected to
+     its previous and next element.
+     A non-linear data structure has no set sequence of connecting all its elements and each element can have multiple paths
+     to connect to other elements.
+
+What is Big-(O)-notation?
+Ans: With Big O Notation we express the runtime in terms of — how quickly it grows relative to the input,
+     as the input gets larger.
+
+Outlined different kind of sorting algorithm with time complexity?
+Ans:
+Algorithm	                    Time Complexity
+
+                    Best	        Average     	    Worst
+Selection Sort	    Ω(n^2)	        θ(n^2)	            O(n^2)
+Bubble Sort	        Ω(n)	        θ(n^2)	            O(n^2)
+Insertion Sort	    Ω(n)	        θ(n^2)  	        O(n^2)
+Heap Sort	        Ω(n log(n))	    θ(n log(n))	        O(n log(n))
+Quick Sort	        Ω(n log(n))	    θ(n log(n))	        O(n^2)
+Merge Sort	        Ω(n log(n))	    θ(n log(n))	        O(n log(n))
+Bucket Sort	        Ω(n+k)	        θ(n+k)	            O(n^2)
+Radix Sort	        Ω(nk)	        θ(nk)	            O(nk)
+
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+
+
+  Ans:           Access     Insert      Search      Remove
+
+  Array            θ(1)	     θ(n)	   θ(n)	          θ(n)
+  Stack            θ(1)	     θ(1)	   θ(n)	          θ(1)
+  Queue            θ(n)	     θ(1)	   θ(n)	          θ(1)
+
+
